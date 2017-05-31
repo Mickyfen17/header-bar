@@ -13,3 +13,11 @@ $black: #000;
 
 $light: 300;
 $bold: 600;
+
+@mixin button {
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: 1.2em;
+  font-family: $openSans;
+  cursor: pointer;
+}
